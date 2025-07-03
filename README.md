@@ -55,8 +55,10 @@ A Node.js + Express backend application implementing a file-based Bookstore REST
 *fs.promises for file persistence
 <br/>
 
-# 🚀 API Endpoints
-Base URL: http://localhost:8000/api
+# 🚀 API Endpoints :
+-> 📷 Live Preview : https://bookstore-rest-apis.onrender.com/ 
+<br/>
+-> (Devlopment) Base URL: http://localhost:8000/api
 
 # 🔐 Auth
 | Method | Endpoint         | Description         | Access |
