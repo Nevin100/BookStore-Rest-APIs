@@ -12,6 +12,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(logger);
 
+// Checking Route :
 app.use("/", async (req, res) => {
   res.send("Hello From the Backend");
 });
