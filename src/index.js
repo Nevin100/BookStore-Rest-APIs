@@ -12,6 +12,10 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(logger);
 
+app.use("/", async (req, res) => {
+  res.send("Hello From the Backend");
+});
+
 //Routes :
 app.use("/api/auth", authRoutes);
 app.use("/api/books", bookRoutes);
